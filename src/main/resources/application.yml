@@ -1,0 +1,7 @@
+server:
+  port: 9999
+spring:
+  zipkin:
+    enabled: false
+  application:
+    name: demo
