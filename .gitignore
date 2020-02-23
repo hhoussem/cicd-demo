@@ -6,12 +6,14 @@
 .project
 .classpath
 factoryConfiguration.json
+/demo.iml
 
 ### Intellij ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff
+/.idea/**
 .idea/**/workspace.xml
 .idea/**/tasks.xml
 .idea/**/usage.statistics.xml
@@ -123,8 +125,10 @@ pom.xml.next
 release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
-.mvn/timing.properties
+.mvn/**
 .mvn/wrapper/maven-wrapper.jar
+/mvnw
+/mvnw.cmd
 
 ### NetBeans ###
 nbproject/private/
@@ -136,13 +140,6 @@ nbdist/
 
 
 # End of https://www.gitignore.io/api/java,maven,netbeans,intellij,java-web,code-java
-/.idea/compiler.xml
-/demo.iml
-/.idea/encodings.xml
-/.mvn/wrapper/maven-wrapper.properties
-/.mvn/wrapper/MavenWrapperDownloader.java
-/.idea/misc.xml
-/.idea/modules.xml
-/mvnw
-/mvnw.cmd
-/.idea/vcs.xml
+
+
+
